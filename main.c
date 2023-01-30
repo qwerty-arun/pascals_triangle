@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include "fib.h"
+# include "pascals_triangle.h"
 int main()
 {
 factorial();
