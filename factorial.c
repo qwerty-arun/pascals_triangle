@@ -1,5 +1,5 @@
 # include <stdio.h>
-void factorial(int n)
+int factorial(int n)
 {
   if(n==0)
   {
