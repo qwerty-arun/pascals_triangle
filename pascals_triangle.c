@@ -1,7 +1,7 @@
   # include <stdio.h>
-  /*int factorial(int n);
+  int factorial(int n);
   int f=1;
-  int combinations(int n,int r,int nmr);*/
+  int combinations(int n,int r,int nmr);
   void pascals_triangle()
   {
     int rows;
