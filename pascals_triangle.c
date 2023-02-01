@@ -26,11 +26,11 @@
    {
      return 1;
    }
-   f=n x factorial(n-1);
+   f=n*factorial(n-1);
   }
  int combinations(int n,int r,int nmr)
  {
-   int ncr=n/(r x nmr);
+   int ncr=n/(r*nmr);
    return ncr;
  }
  }
