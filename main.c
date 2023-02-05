@@ -1,8 +1,9 @@
 # include <stdio.h>
-# include "pascals_triangle.h"
+# include <pascals_triangle.h>
 int main()
 {
-factorial();
-combinations();
+  pascals_triangle();
+//printf("%d",factorial(5));
+//combinations();
 return 0;
 }
