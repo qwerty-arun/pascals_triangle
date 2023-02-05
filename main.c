@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include <pascals_triangle.h>
+# include "pascals_triangle.h"
 int main()
 {
   pascals_triangle();
