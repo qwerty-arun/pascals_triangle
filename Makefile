@@ -1,13 +1,13 @@
-CC = gcc 
-#CFLAGS = "-Werror"
+CC = gcc
+CFLAGS = "-Werror"
 SRC = main.c
 SRC += pascals_triangle.c
 SRC += factorial.c
 SRC += combinations.c
 BIN = Pascal
 
-fibLinux: 
-	$(CC) -o $(BIN) $(SRC) $(CFLAGS)
+Pascals_triangle:
+        $(CC) -o $(BIN) $(SRC) $(CFLAGS)
 
 clean:
-	rm -rf $(BIN)
+        rm -rf $(BIN)
