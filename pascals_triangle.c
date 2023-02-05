@@ -1,8 +1,6 @@
   # include <stdio.h>
-  int factorial(int n);
-  int f=1;
-  int combinations(int n,int r,int nmr);
-  void pascals_triangle()
+  # include "pascals_triangle.h"
+void pascals_triangle()
   {
     int rows;
     printf("Enter no. of rows of Pascal's triangle that need to be printed:\n");
@@ -21,17 +19,4 @@
      printf("\n");
    }
   }
-   /*int factorial(int n)
-   {
-   if(n==0)
-   {
-     return 1;
-   }
-   f=n*factorial(n-1);
-  }
- int combinations(int n,int r,int nmr)
- {
-   int ncr=n/(r*nmr);
-   return ncr;
- }*/
  
